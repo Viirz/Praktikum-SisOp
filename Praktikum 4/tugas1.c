@@ -13,7 +13,7 @@ void *doSomeThing(void *arg)
 	counter++;
 	unsigned long i = 0;
 	for (i = 0; i < (0xFFFFFFFF); i++);
-		printf("\n Thread %d finished\n", counter);
+	printf("\n Thread %d finished\n", counter);
   
 	return NULL;
 }
